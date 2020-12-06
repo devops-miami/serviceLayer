@@ -8,3 +8,14 @@ This layer is responsible for the `Helm Charts` and the `values` file we use to 
 In this case we are adding instructions to spin up the `Atlantis` image we built in the `isoLayer` repo.
 
 * Atlantis with SOPS support
+
+### Windows Notes
+Line endings yo..
+
+Windows ends lines in a carriage return and a linefeed \r\n,
+While Linux and macOS only use a linefeed \n.
+```sh
+git config --global core.autocrlf input
+```
+Found at docker/toolbox#126
+https://github.com/docker/compose/issues/2301
