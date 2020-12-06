@@ -6,3 +6,5 @@ This is a demo for how my stack works. Three different repos represent three dif
 ## Service Layer
 This layer is responsible for the `Helm Charts` and the `values` file we use to install them on `Kubernetes Clusters`.
 In this case we are adding instructions to spin up the `Atlantis` image we built in the `isoLayer` repo.
+
+* Atlantis with SOPS support
