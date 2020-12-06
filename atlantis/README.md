@@ -1,6 +1,6 @@
 # Helm Chart -> Atlantis
 The stuff dreams are made of.. 
-A quick and easy way to deploy `Atlantis` on a `Kubernetes Cluster`. 
+A quick and easy way to deploy `Atlantis` on a `Kubernetes Cluster`.
 
 [Atlantis Official Helm Chart](https://www.runatlantis.io/docs/deployment.html#deployment-2)
 
